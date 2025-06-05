@@ -10,14 +10,14 @@ const mywork_data = [
         w_no:1,
         w_name:"An Youtube-clone",
         w_img: project1_img,
-         link:"https://devesh-youtube-clone.netlify.app/",
+         link:"https://youtube-de.netlify.app/",
          w_desc: "--> It is an Youtube-clone where we can use it to watch videos and also can create our own playlist."
     },
     {
         w_no:2,
         w_name:"Trenito",
         w_img:project2_img,
-         link: 'https://your-project-url-1.com',
+         link: "https://trenito.vercel.app/", 
         w_desc: "--> It is a Doctor appointment app where we can book an appointment with doctors."
     },
     {
