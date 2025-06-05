@@ -2,7 +2,7 @@ import project1_img from '../assets/Youtube-clone.png'
 import project2_img from '../assets/trenitoTemplate.png'
 import project3_img from '../assets/TheHotels.png'
 import project4_img from '../assets/netflix-clone.png'
-import project5_img from '../assets/chat-app.png'
+import project5_img from '../assets/crud.png'
 // import project6_img from '../assets/project_6.svg'
 
 const mywork_data = [
