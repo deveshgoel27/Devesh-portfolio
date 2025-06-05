@@ -34,11 +34,11 @@ const mywork_data = [
         link: 'https://heartfelt-daffodil-cbba8a.netlify.app/',
         w_desc: "--> It is a Netflix-clone where we can watch movies and also can create our own playlist."
     },
-    {
+   {
         w_no:5,
-        w_name:"Chat-app",
+        w_name:"Crud-To-Do-List",
         w_img:project5_img,
-         link: 'https://your-project-url-1.com',
+         link: 'https://crud-to-do-list-black.vercel.app/',
         w_desc: "--> It is a Chat-app where we can chat with our friends."
     },
     // {
