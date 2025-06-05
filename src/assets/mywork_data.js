@@ -39,8 +39,7 @@ const mywork_data = [
         w_name:"Crud-To-Do-List",
         w_img:project5_img,
          link: 'https://crud-to-do-list-black.vercel.app/',
-        w_desc: "--> It is a Chat-app where we can chat with our friends."
-    },
+        w_desc: "--> It is a To-Do-List app where we can add, delete and update our tasks."    },
     // {
     //     w_no:6,
     //     w_name:"Web design",
