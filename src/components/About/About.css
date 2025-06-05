@@ -124,10 +124,12 @@
         gap: 80px;
         margin: 50px 70px;
         align-items: start;
+        
     }
     .about-title h1{
         font-size: 50px;
         padding: 0px;
+        margin-left: 132px;
     }
     .about-title img{
         width: 130px;
@@ -140,12 +142,15 @@
         display: none;
     }
     .about-para{
-        font-size: 18px;
+        font-size: 23px;
         line-height: 32px;
+        margin-left: 60px;
     }
     .about-skill{
         gap: 20px;
         align-items: center;
+        margin-left: -24px;
+        margin-right: -135px;
     }
     .about-skill p{
         font-size: 20px;
@@ -157,14 +162,17 @@
         justify-content: space-between;
     }
     .about-achievement{
+        margin-left: 125px;
         gap: 10px;
     }
     .about-achievement h1{
         font-size: 34px;
         font-weight: 700;
+        margin-right: 108px;
     }
     .about-achievement p{
         font-size: 16px;
         text-align: center;
+        margin-right: 108px;
     }
 }
