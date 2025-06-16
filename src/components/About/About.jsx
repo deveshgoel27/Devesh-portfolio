@@ -21,7 +21,7 @@ const About = () => {
                 <p> I’m passionate about creating responsive, accessible, and visually appealing user interfaces, and I'm excited to contribute to real-world projects while growing as a developer.</p>
                </div>
                <div className="about-skills">
-                   <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"90%"}}/></div>
+                   <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"100%"}}/></div>
                    <div className="about-skill"><p>JavaScript</p><hr style={{width:"80%"}}/></div>
                    <div className="about-skill"><p>React JS</p><hr style={{width:"80%"}}/></div>
                    <div className="about-skill"><p>REDUX</p><hr style={{width:"70%"}}/></div>
