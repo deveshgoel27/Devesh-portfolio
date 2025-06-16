@@ -26,7 +26,7 @@ const About = () => {
                    <div className="about-skill"><p>React JS</p><hr style={{width:"80%"}}/></div>
                    <div className="about-skill"><p>REDUX</p><hr style={{width:"70%"}}/></div>
                    <div className="about-skill"><p>Tailwind CSS</p><hr style={{width:"90%"}}/></div>
-                   <div className="about-skill"><p>MY SQL</p><hr style={{width:"80%"}}/></div>
+                   <div className="about-skill"><p>MY SQL</p><hr style={{width:"70%"}}/></div>
                    <div className="about-skill"><p>JAVA</p><hr style={{width:"60%"}}/></div>
 
                </div>
