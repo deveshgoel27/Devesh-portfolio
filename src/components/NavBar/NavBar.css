@@ -1,4 +1,4 @@
-.navBar{
+/* .navBar{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -97,5 +97,113 @@
         padding-right: 100px;
         flex-direction: row;
         gap: 20px;
+    }
+} */
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 5%;
+    position: relative;
+    z-index: 10;
+}
+
+.nav-logo {
+    height: 80px;
+    width: auto;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-size: 18px;
+}
+
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.nav-menu li img {
+    margin: auto;
+}
+
+.nav-connect {
+    padding: 12px 30px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.6%);
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    transition: transform 0.2s, border 0.2s;
+}
+
+.nav-connect:hover {
+    transform: scale(1.05);
+    border: 2px solid white;
+}
+
+.anchor-link {
+    text-decoration: none;
+    color: white;
+}
+
+/* Mobile menu toggle icons */
+.nav-mob-open, .nav-mob-close {
+    display: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+/* RESPONSIVE STYLES */
+@media (max-width: 768px) {
+    .nav-connect {
+        display: none;
+    }
+
+    .nav-menu {
+        position: fixed;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #1F0016;
+        top: 0;
+        right: -100%;
+        width: 250px;
+        height: 100vh;
+        padding: 60px 30px;
+        gap: 30px;
+        transition: right 0.3s ease;
+    }
+
+    .nav-menu.open {
+        right: 0;
+    }
+
+    .nav-menu li {
+        font-size: 22px;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .nav-mob-open {
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 20px;
+    }
+
+    .nav-mob-close {
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 20px;
     }
 }
